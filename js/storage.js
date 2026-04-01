@@ -63,7 +63,21 @@ function loadMembers() {
 
 function saveMembers(members) {
   try {
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(members))
+    // Only persist members that carry non-default data so we don't blow the
+    // ~5 MB localStorage quota by serialising all 500+ congress entries every
+    // time.  loadMembers() re-inflates missing entries from CONGRESS_DATA on
+    // the next load, so it is safe to omit unmodified members here.
+    const delta = members.filter(m =>
+      m.id.startsWith('u') ||   // user-added member
+      m.voting    != null  ||   // has a voting score (0 is a valid score)
+      m.finance   != null  ||   // has a finance score
+      m.scandal   != null  ||   // has a scandal score
+      m.lobby     != null  ||   // has a lobby score
+      m.notes     !== ''   ||   // has non-empty notes
+      m.upvotes   > 0      ||   // has community upvotes
+      m.downvotes > 0           // has community downvotes
+    )
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(delta))
   } catch(e) {
     // this can fail if storage is full, just silently fail I guess
     console.error('couldnt save members:', e)

@@ -150,6 +150,7 @@ function handleAddMember(e) {
   saveMembers(state.members)
   document.getElementById('add-form').reset()
   renderStatsBar(state.members)
+  refreshLeaderboard()
   setTab('browse')
   refreshList()
   showToast(`${newMember.name} added`, 'success')
