@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>who should i vote? — us congress tracker</title>
+  <meta name="description" content="community integrity tracker for the 119th US Congress. rate your reps.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container">
+    <h1>who should i vote? 🗳️</h1>
+    <p class="subtitle">119th congress · community integrity tracker · no login required</p>
+  </div>
+</header>
+
+<main class="container">
+
+  <div id="stats-bar"></div>
+
+  <nav class="tabs">
+    <button class="tab-btn tab-btn--active" data-tab="browse">Browse</button>
+    <button class="tab-btn" data-tab="leaderboard">Leaderboard</button>
+    <button class="tab-btn" data-tab="add">Add politician</button>
+    <button class="tab-btn" data-tab="about">About</button>
+  </nav>
+
+  <!-- browse -->
+  <section class="tab-panel" data-tab="browse">
+    <div class="controls">
+      <input type="search" id="search-input" placeholder="search by name, state, district..." autocomplete="off">
+      <select id="chamber-filter">
+        <option value="">both chambers</option>
+        <option value="Senate">senate only</option>
+        <option value="House">house only</option>
+      </select>
+      <select id="state-filter">
+        <option value="">all states</option>
+        <!-- filled in by js -->
+      </select>
+    </div>
+
+    <div class="filters">
+      <button class="filter-btn filter-btn--active" data-party-filter="all">all parties</button>
+      <button class="filter-btn" data-party-filter="R">republican</button>
+      <button class="filter-btn" data-party-filter="D">democrat</button>
+      <button class="filter-btn" data-party-filter="I">independent</button>
+    </div>
+
+    <div id="member-list"></div>
+    <div id="pagination"></div>
+  </section>
+
+  <!-- leaderboard -->
+  <section class="tab-panel" data-tab="leaderboard" hidden>
+    <p style="font-size:14px; color:var(--muted); margin-bottom:16px">
+      top 50 by integrity score. only shows members who've been scored.
+    </p>
+    <div id="leaderboard-list"></div>
+  </section>
+
+  <!-- add -->
+  <section class="tab-panel" data-tab="add" hidden>
+    <p style="font-size:14px; color:var(--muted); margin-bottom:16px">
+      add someone not in the list yet, or click a card in Browse to update an existing member's scores.
+    </p>
+
+    <div class="add-member-form">
+      <form id="add-form">
+
+        <div class="form-grid" style="margin-bottom:8px">
+          <div class="form-group">
+            <label for="add-name">name *</label>
+            <input id="add-name" type="text" placeholder="e.g. Jane Smith">
+          </div>
+          <div class="form-group">
+            <label for="add-title">title / seat *</label>
+            <input id="add-title" type="text" placeholder="e.g. Senator, TX  or  Rep. TX-21">
+          </div>
+          <div class="form-group">
+            <label for="add-party">party</label>
+            <select id="add-party">
+              <option value="R">Republican</option>
+              <option value="D">Democrat</option>
+              <option value="I">Independent</option>
+              <option value="Other">Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="add-chamber">chamber</label>
+            <select id="add-chamber">
+              <option value="Senate">Senate</option>
+              <option value="House">House</option>
+            </select>
+          </div>
+        </div>
+
+        <p style="font-size:12px; color:var(--muted); margin:12px 0 8px">scores (0–100). leave blank if you don't know.</p>
+
+        <div class="form-grid" style="margin-bottom:8px">
+          <div class="form-group">
+            <label for="add-voting">voting record consistency</label>
+            <input id="add-voting" type="number" min="0" max="100" placeholder="0–100">
+          </div>
+          <div class="form-group">
+            <label for="add-finance">campaign finance transparency</label>
+            <input id="add-finance" type="number" min="0" max="100" placeholder="0–100">
+          </div>
+          <div class="form-group">
+            <label for="add-scandal">scandal score (100 = clean)</label>
+            <input id="add-scandal" type="number" min="0" max="100" placeholder="0–100">
+          </div>
+          <div class="form-group">
+            <label for="add-lobby">lobbying independence</label>
+            <input id="add-lobby" type="number" min="0" max="100" placeholder="0–100">
+          </div>
+        </div>
+
+        <div class="form-group" style="margin-bottom:14px">
+          <label for="add-notes">notes / sources</label>
+          <textarea id="add-notes" rows="3" placeholder="voting history, donor info, news links, whatever"></textarea>
+        </div>
+
+        <button type="submit" class="btn-primary">add to tracker</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- about -->
+  <section class="tab-panel" data-tab="about" hidden style="max-width:620px">
+    <h2 style="margin-bottom:12px; font-weight:500">about this project</h2>
+
+    <p style="font-size:14px; line-height:1.8; color:var(--muted); margin-bottom:20px">
+      I built this because I kept walking into the voting booth knowing nothing about half the people on the ballot.
+      It's a simple community-scored tracker for all 528 members of the 119th US Congress.
+      No accounts, no server, no ads. Data lives in your localStorage.
+    </p>
+
+    <h3 style="font-size:14px; font-weight:500; margin-bottom:8px">scoring guide</h3>
+    <table style="width:100%; font-size:13px; border-collapse:collapse; margin-bottom:20px">
+      <thead>
+        <tr style="border-bottom:0.5px solid var(--border); text-align:left">
+          <th style="padding:6px 0; color:var(--muted); font-weight:500">metric</th>
+          <th style="padding:6px 0; color:var(--muted); font-weight:500">0 =</th>
+          <th style="padding:6px 0; color:var(--muted); font-weight:500">100 =</th>
+        </tr>
+      </thead>
+      <tbody style="color:var(--muted)">
+        <tr><td style="padding:6px 0">voting record</td><td>never keeps promises</td><td>always votes as promised</td></tr>
+        <tr><td style="padding:6px 0">campaign finance</td><td>opaque / PAC-heavy</td><td>transparent / small-dollar</td></tr>
+        <tr><td style="padding:6px 0">scandal score</td><td>many controversies</td><td>clean record</td></tr>
+        <tr><td style="padding:6px 0">lobbying</td><td>heavy donor capture</td><td>votes independently</td></tr>
+      </tbody>
+    </table>
+
+    <h3 style="font-size:14px; font-weight:500; margin-bottom:8px">rate limiting</h3>
+    <p style="font-size:13px; color:var(--muted); line-height:1.8; margin-bottom:20px">
+      5 votes per hour, 1 per member, tracked via browser fingerprint.
+      It's a speed bump not a wall — clearing localStorage resets it, which is fine.
+    </p>
+
+    <h3 style="font-size:14px; font-weight:500; margin-bottom:8px">data sources</h3>
+    <ul style="font-size:13px; color:var(--muted); line-height:2; padding-left:20px; margin-bottom:20px">
+      <li><a href="https://www.congress.gov/members" target="_blank">congress.gov/members</a></li>
+      <li><a href="https://en.wikipedia.org/wiki/List_of_current_United_States_senators" target="_blank">wikipedia: current senators</a></li>
+      <li><a href="https://en.wikipedia.org/wiki/List_of_current_members_of_the_United_States_House_of_Representatives" target="_blank">wikipedia: current representatives</a></li>
+    </ul>
+
+    <p style="font-size:13px; color:var(--muted); line-height:1.8">
+      open source, MIT license. PRs welcome — just don't add a build system please.
+    </p>
+  </section>
+
+</main>
+
+<!-- modal goes here -->
+<div id="modal-root"></div>
+
+<!-- toasts -->
+<div id="toast-container"></div>
+
+<!-- load order matters: data first, then the stuff that depends on it -->
+<script src="js/data.js"></script>
+<script src="js/storage.js"></script>
+<script src="js/render.js"></script>
+<script src="js/app.js"></script>
+
+</body>
+</html>
