@@ -526,4 +526,280 @@ const CONGRESS_DATA = [
 
   // Wyoming
   { id: "c524", name: "Harriet Hageman",         title: "Rep. WY-At Large", party: "R", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "Defeated Liz Cheney in the 2022 Republican primary with Trump's endorsement.", upvotes: 0, downvotes: 0 },
+
+  // CA (additional House members)
+  { id: "c529", name: "Doug LaMalfa", title: "Rep. CA-1 (vacant)", party: "R", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c530", name: "Mike Thompson", title: "Rep. CA-4", party: "D", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c531", name: "Ami Bera", title: "Rep. CA-6", party: "D", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c532", name: "Doris Matsui", title: "Rep. CA-7", party: "D", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c533", name: "John Garamendi", title: "Rep. CA-8", party: "D", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c534", name: "Josh Harder", title: "Rep. CA-9", party: "D", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c535", name: "Mark DeSaulnier", title: "Rep. CA-10", party: "D", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c536", name: "Barbara Lee", title: "Rep. CA-12", party: "D", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c537", name: "John Duarte", title: "Rep. CA-13", party: "R", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c538", name: "Kevin Mullin", title: "Rep. CA-15", party: "D", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c539", name: "Anna Eshoo", title: "Rep. CA-16", party: "D", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c540", name: "Zoe Lofgren", title: "Rep. CA-18", party: "D", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c541", name: "Jimmy Panetta", title: "Rep. CA-19", party: "D", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c542", name: "Kevin McCarthy", title: "Rep. CA-20", party: "R", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c543", name: "Jim Costa", title: "Rep. CA-21", party: "D", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c544", name: "David Valadao", title: "Rep. CA-22", party: "R", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c545", name: "Jay Obernolte", title: "Rep. CA-23", party: "R", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c546", name: "Emilio Garcia-Hernandez", title: "Rep. CA-24", party: "D", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c547", name: "Raul Ruiz", title: "Rep. CA-25", party: "D", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c548", name: "Julia Brownley", title: "Rep. CA-26", party: "D", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c549", name: "Judy Chu", title: "Rep. CA-28", party: "D", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c550", name: "Tony Cárdenas", title: "Rep. CA-29", party: "D", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+
+  { id: "c552", name: "George Whitesides", title: "Rep. CA-31", party: "D", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c553", name: "Brad Sherman", title: "Rep. CA-32", party: "D", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c554", name: "Pete Aguilar", title: "Rep. CA-33", party: "D", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c555", name: "Jimmy Gomez", title: "Rep. CA-34", party: "D", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c556", name: "Norma Torres", title: "Rep. CA-35", party: "D", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c557", name: "Sydney Kamlager-Dove", title: "Rep. CA-37", party: "D", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c558", name: "Linda Sánchez", title: "Rep. CA-38", party: "D", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c559", name: "Mark Takano", title: "Rep. CA-39", party: "D", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c560", name: "Young Oak Kim", title: "Rep. CA-40", party: "R", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c561", name: "Ken Calvert", title: "Rep. CA-41", party: "R", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c562", name: "Joe Baca", title: "Rep. CA-43", party: "D", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c563", name: "Nanette Barragán", title: "Rep. CA-44", party: "D", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c564", name: "Michelle Park Steel", title: "Rep. CA-46", party: "R", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c565", name: "Katie Porter", title: "Rep. CA-47", party: "D", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+
+  { id: "c567", name: "Scott Peters", title: "Rep. CA-50", party: "D", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c568", name: "Juan Vargas", title: "Rep. CA-52", party: "D", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+
+  // CO (additional House members)
+  { id: "c569", name: "Jeff Hurd", title: "Rep. CO-3", party: "R", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c570", name: "Jeff Crank", title: "Rep. CO-5", party: "R", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c571", name: "Brittany Pettersen", title: "Rep. CO-7", party: "D", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c572", name: "Yadira Caraveo", title: "Rep. CO-8", party: "D", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+
+  // CT (additional House members)
+  { id: "c573", name: "John Larson", title: "Rep. CT-1", party: "D", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c574", name: "Joe Courtney", title: "Rep. CT-2", party: "D", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+
+  // FL (additional House members)
+  { id: "c575", name: "Neal Dunn", title: "Rep. FL-2", party: "R", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c576", name: "Kat Cammack", title: "Rep. FL-3", party: "R", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+
+  { id: "c578", name: "John Rutherford", title: "Rep. FL-5", party: "R", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c579", name: "Cory Mills", title: "Rep. FL-7", party: "R", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c580", name: "Bill Posey", title: "Rep. FL-8", party: "R", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c581", name: "Darren Soto", title: "Rep. FL-9", party: "D", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c582", name: "Daniel Webster", title: "Rep. FL-11", party: "R", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c583", name: "Gus Bilirakis", title: "Rep. FL-12", party: "R", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c584", name: "Kathy Castor", title: "Rep. FL-14", party: "D", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c585", name: "Laurel Lee", title: "Rep. FL-15", party: "R", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c586", name: "Vern Buchanan", title: "Rep. FL-16", party: "R", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c587", name: "Greg Steube", title: "Rep. FL-17", party: "R", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c588", name: "Scott Franklin", title: "Rep. FL-18", party: "R", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c589", name: "Sheila Cherfilus-McCormick", title: "Rep. FL-20", party: "D", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c590", name: "Lois Frankel", title: "Rep. FL-22", party: "D", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c591", name: "Frederica Wilson", title: "Rep. FL-24", party: "D", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c592", name: "Mario Díaz-Balart", title: "Rep. FL-26", party: "R", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c593", name: "Carlos Giménez", title: "Rep. FL-28", party: "R", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+
+  // GA (additional House members)
+  { id: "c594", name: "Earl Carter", title: "Rep. GA-1", party: "R", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c595", name: "Drew Ferguson", title: "Rep. GA-3", party: "R", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c596", name: "Hank Johnson", title: "Rep. GA-4", party: "D", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c597", name: "Lucy McBath", title: "Rep. GA-6", party: "D", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c598", name: "Rich McCormick", title: "Rep. GA-7", party: "R", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c599", name: "Austin Scott", title: "Rep. GA-8", party: "R", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c600", name: "Mike Collins", title: "Rep. GA-10", party: "R", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c601", name: "Barry Loudermilk", title: "Rep. GA-11", party: "R", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c602", name: "Rick Allen", title: "Rep. GA-12", party: "R", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c603", name: "David Scott", title: "Rep. GA-13", party: "D", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c604", name: "Marjorie Taylor Greene", title: "Rep. GA-14 (resigned)", party: "R", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+
+  // IL (additional House members)
+  { id: "c605", name: "Jonathan Jackson", title: "Rep. IL-1", party: "D", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c606", name: "Robin Kelly", title: "Rep. IL-2", party: "D", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c607", name: "Delia Ramirez", title: "Rep. IL-3", party: "D", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c608", name: "Mike Quigley", title: "Rep. IL-5", party: "D", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c609", name: "Sean Casten", title: "Rep. IL-6", party: "D", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c610", name: "Danny Davis", title: "Rep. IL-7", party: "D", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c611", name: "Brad Schneider", title: "Rep. IL-10", party: "D", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c612", name: "Bill Foster", title: "Rep. IL-11", party: "D", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c613", name: "Nikki Budzinski", title: "Rep. IL-13", party: "D", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c614", name: "Mary Miller", title: "Rep. IL-15", party: "R", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c615", name: "Eric Sorensen", title: "Rep. IL-17", party: "D", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+
+  // IN (additional House members)
+  { id: "c616", name: "Rudy Yakym", title: "Rep. IN-2", party: "R", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c617", name: "Marlin Stutzman", title: "Rep. IN-3", party: "R", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c618", name: "Jim Baird", title: "Rep. IN-4", party: "R", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c619", name: "Jefferson Shreve", title: "Rep. IN-6", party: "R", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c620", name: "Mark Souder", title: "Rep. IN-8", party: "R", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c621", name: "Erin Houchin", title: "Rep. IN-9", party: "R", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+
+  // KS (additional House members)
+  { id: "c622", name: "Jake LaTurner", title: "Rep. KS-2", party: "R", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c623", name: "Ron Estes", title: "Rep. KS-4", party: "R", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+
+  // KY (additional House members)
+  { id: "c624", name: "Harold Rogers", title: "Rep. KY-5", party: "R", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c625", name: "Andy Barr", title: "Rep. KY-6", party: "R", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+
+  // LA (additional House members)
+  { id: "c626", name: "Troy Carter", title: "Rep. LA-2", party: "D", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+
+  // MA (additional House members)
+  { id: "c627", name: "Lori Trahan", title: "Rep. MA-3", party: "D", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c628", name: "Jake Auchincloss", title: "Rep. MA-4", party: "D", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c629", name: "Seth Moulton", title: "Rep. MA-6", party: "D", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c630", name: "Stephen Lynch", title: "Rep. MA-8", party: "D", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c631", name: "Bill Keating", title: "Rep. MA-9", party: "D", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+
+  // MD (additional House members)
+  { id: "c632", name: "Johnny Olszewski", title: "Rep. MD-2", party: "D", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c633", name: "Sarah Elfreth", title: "Rep. MD-3", party: "D", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c634", name: "Glenn Ivey", title: "Rep. MD-4", party: "D", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c635", name: "April McClain Delaney", title: "Rep. MD-6", party: "D", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c636", name: "David Trone", title: "Rep. MD-7", party: "D", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+
+  // MI (additional House members)
+  { id: "c637", name: "Jack Bergman", title: "Rep. MI-1", party: "R", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c638", name: "John Moolenaar", title: "Rep. MI-2", party: "R", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c639", name: "Bill Huizenga", title: "Rep. MI-4", party: "R", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c640", name: "Tim Walberg", title: "Rep. MI-5", party: "R", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c641", name: "Tom Barrett", title: "Rep. MI-7", party: "R", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c642", name: "Kristen McDonald Rivet", title: "Rep. MI-8", party: "D", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+
+  { id: "c644", name: "Lisa McClain", title: "Rep. MI-9", party: "R", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c645", name: "John James", title: "Rep. MI-10", party: "R", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c646", name: "Shri Thanedar", title: "Rep. MI-13", party: "D", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+
+  // MN (additional House members)
+  { id: "c647", name: "Brad Finstad", title: "Rep. MN-1", party: "R", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c648", name: "Kelly Morrison", title: "Rep. MN-3", party: "D", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c649", name: "Betty McCollum", title: "Rep. MN-4", party: "D", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c650", name: "Michelle Fischbach", title: "Rep. MN-7", party: "R", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c651", name: "Pete Stauber", title: "Rep. MN-8", party: "R", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+
+  // MO (additional House members)
+  { id: "c652", name: "Blaine Luetkemeyer", title: "Rep. MO-3", party: "R", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c653", name: "Mark Alford", title: "Rep. MO-4", party: "R", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c654", name: "Eric Burlison", title: "Rep. MO-7", party: "R", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c655", name: "Jason Smith", title: "Rep. MO-8", party: "R", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+
+  // MS (additional House members)
+  { id: "c656", name: "Trent Kelly", title: "Rep. MS-1", party: "R", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c657", name: "Michael Guest", title: "Rep. MS-3", party: "R", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c658", name: "Mike Ezell", title: "Rep. MS-4", party: "R", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+
+  // NC (additional House members)
+  { id: "c659", name: "Deborah Ross", title: "Rep. NC-2", party: "D", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+
+  { id: "c661", name: "Addison McDowell", title: "Rep. NC-6", party: "R", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c662", name: "David Rouzer", title: "Rep. NC-7", party: "R", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c663", name: "Mark Harris", title: "Rep. NC-8", party: "R", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c664", name: "Patrick McHenry", title: "Rep. NC-10", party: "R", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c665", name: "Chuck Edwards", title: "Rep. NC-11", party: "R", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c666", name: "Jeff Jackson", title: "Rep. NC-13", party: "D", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+
+  // NJ (additional House members)
+  { id: "c667", name: "Herb Conaway", title: "Rep. NJ-3", party: "D", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c668", name: "Frank Pallone", title: "Rep. NJ-6", party: "D", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c669", name: "Bill Pascrell", title: "Rep. NJ-9", party: "D", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c670", name: "Donald Payne Jr.", title: "Rep. NJ-10", party: "D", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c671", name: "Mikie Sherrill", title: "Rep. NJ-11 (resigned)", party: "D", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+
+  // NM (additional House members)
+  { id: "c672", name: "Melanie Stansbury", title: "Rep. NM-1", party: "D", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+
+  // NV (additional House members)
+  { id: "c673", name: "Mark Amodei", title: "Rep. NV-2", party: "R", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+
+  // NY (additional House members)
+  { id: "c674", name: "George Santos", title: "Rep. NY-3", party: "R", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c675", name: "Anthony D'Esposito", title: "Rep. NY-4", party: "R", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c676", name: "Gregory Meeks", title: "Rep. NY-5", party: "D", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c677", name: "Grace Meng", title: "Rep. NY-6", party: "D", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c678", name: "Nydia Velázquez", title: "Rep. NY-7", party: "D", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c679", name: "Yvette Clarke", title: "Rep. NY-9", party: "D", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c680", name: "Adriano Espaillat", title: "Rep. NY-13", party: "D", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c681", name: "Jamaal Bowman", title: "Rep. NY-16", party: "D", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c682", name: "Pat Ryan", title: "Rep. NY-18", party: "D", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c683", name: "Marc Molinaro", title: "Rep. NY-19", party: "R", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c684", name: "Elise Stefanik", title: "Rep. NY-21", party: "R", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c685", name: "Brandon Williams", title: "Rep. NY-22", party: "R", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c686", name: "Michael Lawler", title: "Rep. NY-23", party: "R", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c687", name: "Tim Kennedy", title: "Rep. NY-26", party: "D", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+
+  // OH (additional House members)
+  { id: "c688", name: "Greg Landsman", title: "Rep. OH-1", party: "D", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c689", name: "Brad Wenstrup", title: "Rep. OH-2", party: "R", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c690", name: "Michael Rulli", title: "Rep. OH-6", party: "R", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c691", name: "Max Miller", title: "Rep. OH-7", party: "R", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c692", name: "Dave Joyce", title: "Rep. OH-14", party: "R", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c693", name: "Steve Stivers", title: "Rep. OH-15", party: "R", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+
+  // OK (additional House members)
+  { id: "c694", name: "Josh Brecheen", title: "Rep. OK-2", party: "R", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+
+  // OR (additional House members)
+
+  { id: "c696", name: "Janelle Bynum", title: "Rep. OR-5", party: "D", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+
+  // PA (additional House members)
+  { id: "c697", name: "Mary Gay Scanlon", title: "Rep. PA-5", party: "D", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c698", name: "Susan Wild", title: "Rep. PA-7", party: "D", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c699", name: "Rob Bresnahan", title: "Rep. PA-8", party: "R", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+
+  { id: "c701", name: "Lloyd Smucker", title: "Rep. PA-11", party: "R", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c702", name: "John Joyce", title: "Rep. PA-13", party: "R", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c703", name: "Glenn Thompson", title: "Rep. PA-15", party: "R", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c704", name: "Mike Kelly", title: "Rep. PA-16", party: "R", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+
+  // SC (additional House members)
+  { id: "c705", name: "Jeff Duncan", title: "Rep. SC-3", party: "R", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c706", name: "William Timmons", title: "Rep. SC-4", party: "R", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c707", name: "Russell Fry", title: "Rep. SC-7", party: "R", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+
+  // TN (additional House members)
+  { id: "c708", name: "Chuck Fleischmann", title: "Rep. TN-3", party: "R", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c709", name: "John Rose", title: "Rep. TN-6", party: "R", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c710", name: "David Kustoff", title: "Rep. TN-8", party: "R", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+
+  // TX (additional House members)
+  { id: "c711", name: "Nathaniel Moran", title: "Rep. TX-1", party: "R", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c712", name: "Keith Self", title: "Rep. TX-3", party: "R", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c713", name: "Pat Fallon", title: "Rep. TX-4", party: "R", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c714", name: "Lance Gooden", title: "Rep. TX-5", party: "R", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c715", name: "Jake Ellzey", title: "Rep. TX-6", party: "R", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c716", name: "Lizzie Fletcher", title: "Rep. TX-7", party: "D", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c717", name: "Morgan Luttrell", title: "Rep. TX-8", party: "R", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c718", name: "August Pfluger", title: "Rep. TX-11", party: "R", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c719", name: "Kay Granger", title: "Rep. TX-12", party: "R", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c720", name: "Randy Weber", title: "Rep. TX-14", party: "R", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c721", name: "Monica De La Cruz", title: "Rep. TX-15", party: "R", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c722", name: "Pete Sessions", title: "Rep. TX-17", party: "R", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c723", name: "Beto O'Rourke", title: "Rep. TX-18 (special)", party: "D", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c724", name: "Jodey Arrington", title: "Rep. TX-19", party: "R", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c725", name: "Tony Gonzales", title: "Rep. TX-23", party: "R", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c726", name: "Beth Van Duyne", title: "Rep. TX-24", party: "R", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c727", name: "Roger Williams", title: "Rep. TX-25", party: "R", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c728", name: "Michael Burgess", title: "Rep. TX-26", party: "R", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c729", name: "Michael Cloud", title: "Rep. TX-27", party: "R", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c730", name: "Jane Granger", title: "Rep. TX-30", party: "D", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c731", name: "John Carter", title: "Rep. TX-31", party: "R", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c732", name: "Colin Allred", title: "Rep. TX-32", party: "D", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c733", name: "Brian Babin", title: "Rep. TX-36", party: "R", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+
+  // UT (additional House members)
+  { id: "c734", name: "Mike Kennedy", title: "Rep. UT-3", party: "R", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+
+  // VA (additional House members)
+  { id: "c735", name: "Donald McEachin", title: "Rep. VA-4", party: "D", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c736", name: "Bob Good", title: "Rep. VA-5", party: "R", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c737", name: "Abigail Spanberger", title: "Rep. VA-7", party: "D", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+  { id: "c738", name: "Morgan Griffith", title: "Rep. VA-9", party: "R", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+
+  // WA (additional House members)
+  { id: "c739", name: "Cathy McMorris Rodgers", title: "Rep. WA-5", party: "R", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 },
+
+  // WI (additional House members)
+  { id: "c740", name: "Mike Gallagher", title: "Rep. WI-8", party: "R", chamber: "House", level: "Federal", voting: null, finance: null, scandal: null, lobby: null, notes: "", upvotes: 0, downvotes: 0 }
 ];

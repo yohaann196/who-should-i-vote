@@ -23,16 +23,42 @@ function getFingerprint() {
 }
 
 function loadMembers() {
+  // always start from the current CONGRESS_DATA so new members appear for everyone
+  const base = JSON.parse(JSON.stringify(CONGRESS_DATA))
+
   try {
     const saved = localStorage.getItem(STORAGE_KEY)
     if (saved) {
-      return JSON.parse(saved)
+      const stored = JSON.parse(saved)
+      if (Array.isArray(stored) && stored.length) {
+        // build a lookup of stored scores/votes keyed by member id
+        const storedMap = {}
+        stored.forEach(m => { if (m && m.id) storedMap[m.id] = m })
+
+        // apply stored scores and votes to the current member list
+        base.forEach(m => {
+          const s = storedMap[m.id]
+          if (!s) return
+          if (s.voting  != null) m.voting  = s.voting
+          if (s.finance != null) m.finance = s.finance
+          if (s.scandal != null) m.scandal = s.scandal
+          if (s.lobby   != null) m.lobby   = s.lobby
+          if (s.notes)           m.notes   = s.notes
+          if (s.upvotes)         m.upvotes = s.upvotes
+          if (s.downvotes)       m.downvotes = s.downvotes
+        })
+
+        // also bring back any user-added members (ids starting with 'u')
+        stored.forEach(m => {
+          if (m && m.id && m.id.startsWith('u')) base.unshift(m)
+        })
+      }
     }
   } catch(e) {
-    console.warn('localStorage parse failed, falling back to seed data', e)
+    console.warn('localStorage parse failed, using seed data', e)
   }
-  // deep clone so we don't accidentally mutate the original array
-  return JSON.parse(JSON.stringify(CONGRESS_DATA))
+
+  return base
 }
 
 function saveMembers(members) {
